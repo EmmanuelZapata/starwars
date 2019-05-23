@@ -54,6 +54,8 @@ app.get("/darthmaul", function(req, res) {
 
 app.get("/obiwankenobi", function(req, res) {
   res.json(obiwankenobi);
+
+  console.log("WTF");
 });
 
 // Create a new Express route that leads users to the new Obi Wan Kenobi Data
